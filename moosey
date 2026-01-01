@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moosey Pure Milk - Gwalior Doorstep Delivery</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; }
+        header { background: #4a7c59; color: white; text-align: center; padding: 2rem; }
+        .hero { background: #e8f5e8; padding: 4rem 2rem; text-align: center; }
+        .products { display: flex; justify-content: center; gap: 2rem; padding: 2rem; flex-wrap: wrap; }
+        .product { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 250px; text-align: center; }
+        footer { background: #333; color: white; text-align: center; padding: 1rem; }
+        button { background: #ff6b35; color: white; border: none; padding: 1rem 2rem; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🐄 Moosey Pure Milk</h1>
+        <p>Farm-Fresh A2 Milk in 500ml Glass Bottles | Gwalior Doorstep</p>
+    </header>
+    <section class="hero">
+        <h2>Get Pure, Unadulterated Milk Daily!</h2>
+        <p>From our 2 cows & buffalo straight to your door. Morning delivery, evening collection.</p>
+        <button onclick="window.open('https://wa.me/91YOURNUMBER?text=Order Moosey Milk')">Order Now on WhatsApp</button>
+    </section>
+    <section class="products">
+        <div class="product">
+            <h3>Cow Milk</h3>
+            <img src="cow.jpg" alt="Cow Milk" style="width:100%; border-radius:5px;">
+            <p>₹60 / 500ml</p>
+        </div>
+        <div class="product">
+            <h3>Buffalo Milk</h3>
+            <img src="buffalo.jpg" alt="Buffalo Milk" style="width:100%; border-radius:5px;">
+            <p>₹70 / 500ml</p>
+        </div>
+    </section>
+    <footer>
+        <p>Moosey Milk | Gwalior, MP | Contact: 91XXXXXXXXX</p>
+    </footer>
+</body>
+</html>
